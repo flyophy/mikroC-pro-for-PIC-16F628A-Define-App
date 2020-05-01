@@ -1,1 +1,1 @@
-# mikroC-pro-for-PIC-Define-App
+# mikroC-pro-for-PIC(16F628A)-Define-App

@@ -1,16 +1,16 @@
-#define emre portb.f0  //portb.f0 osman olarak tanımlandı
-#define metin portb.f1  //portb.f1 kazim olarak tanımlandı
+#define emre portb.f0  //portb.f0 emre olarak tanÄ±mlandÄ±
+#define metin portb.f1  //portb.f1 metin olarak tanÄ±mlandÄ±
 void main()
 {
- trisb.f0=0;  //PORTB'nin 0. pini çıkış olarak ayarlandı
- trisb.f1=0;  //PORTB'nin 1. pini çıkış olarak ayarlandı
- while(1)     //Sonsuz döngü
+ trisb.f0=0;  //PORTB'nin 0. pini Ã§Ä±kÄ±ÅŸ olarak ayarlandÄ±
+ trisb.f1=0;  //PORTB'nin 1. pini Ã§Ä±kÄ±ÅŸ olarak ayarlandÄ±
+ while(1)     //Sonsuz dÃ¶ngÃ¼
          {
-          emre=0;  //PORTB'nin 0. pini 0 yapıldı.
-          metin=1; //PORTB'nin 1. pini 1 yapıldı.
+          emre=0;  //PORTB'nin 0. pini 0 yapÄ±ldÄ±.
+          metin=1; //PORTB'nin 1. pini 1 yapÄ±ldÄ±.
           delay_ms(500);  //500 milisaniye beklendi.
-          emre=1;  //PORTB'nin 0. pini 1 yapıldı.
-          metin=0; //PORTB'nin 1. pini 0 yapıldı.
+          emre=1;  //PORTB'nin 0. pini 1 yapÄ±ldÄ±.
+          metin=0; //PORTB'nin 1. pini 0 yapÄ±ldÄ±.
           delay_ms(500); //500 milisaniye beklendi.
          }
 }
